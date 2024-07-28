@@ -5,11 +5,11 @@ class Config(object):
     API_ID = 016675873641
     API_HASH = "3fc2b371f4fbb0166758736414d8be92"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "UXBLBVF519U1NRU7"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
     DATABASE_URL = ""  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (unknown_xlog)  # Event logs channel to note down important bot level events
 
     MONGO_DB_URI = "mongodb+srv://Unknown:Unknown@unknown.2qz5dea.mongodb.net/?retryWrites=true&w=majority&appName=Unknown"  # Get ths value from cloud.mongodb.com
 
